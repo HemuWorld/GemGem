@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+**/.env
+
+# Test artifacts and reports
+test-results/
+**/test-results/
+reports/
+**/reports/
+playwright-report/
+**/playwright-report/
+
+# Playwright cache/artifacts
+.playwright/
+**/.playwright/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

@@ -1,0 +1,4 @@
+https://mp2-api-staging.jewelprotech.com/api/v1/c2c/product/unique-18k-white-gold-diamond-round-lr-11664?include=full_details&lang=en
+
+Resonse-
+{"status":"0","message":"Message !","data":[]}

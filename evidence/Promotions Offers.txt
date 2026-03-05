@@ -1,0 +1,52 @@
+Request URL: https://mp2-api-staging.jewelprotech.com/api/v1/promotion/getActivePromotions?actorType=buyer&lang=en
+
+Request Method: GET
+Status Code : 200 OK
+
+Response : 
+
+{
+    "status": "success",
+    "message": "",
+    "data": [
+        {
+            "id": 9,
+            "name": "free-ship-promotion",
+            "slug": "free-ship-promotion",
+            "status": "active",
+            "actor_type": "buyer",
+            "type": "service",
+            "created_at": "2025-06-14T07:38:50.000000Z",
+            "discount_percentage": null,
+            "value": {
+                "USD": {
+                    "price": 100,
+                    "formatted": "USD $100"
+                },
+                "AUD": {
+                    "price": 131,
+                    "formatted": "$131.00"
+                },
+                "HKD": {
+                    "price": 781,
+                    "formatted": "HKD $781"
+                },
+                "MYR": {
+                    "price": 409,
+                    "formatted": "RM409"
+                },
+                "SGD": {
+                    "price": 135,
+                    "formatted": "$135.00"
+                },
+                "TWD": {
+                    "price": 3002,
+                    "formatted": "NT$3,002.00"
+                }
+            },
+            "currency": "USD",
+            "start_date": "2025-06-14T07:38:50.000000Z",
+            "end_date": "2026-09-14T21:00:00.000000Z"
+        }
+    ]
+}

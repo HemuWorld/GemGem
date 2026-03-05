@@ -1,0 +1,44 @@
+Request URL: https://api.stripe.com/v1/tokens
+
+Request Method: POST
+Status Code : 200 OK
+
+Response : 
+{
+  "id": "tok_1T7WzFP0p3J9gSEXFQp6YuVg",
+  "object": "token",
+  "card": {
+    "id": "card_1T7WzFP0p3J9gSEXWZ5WZkTc",
+    "object": "card",
+    "address_city": null,
+    "address_country": null,
+    "address_line1": null,
+    "address_line1_check": null,
+    "address_line2": null,
+    "address_state": null,
+    "address_zip": null,
+    "address_zip_check": null,
+    "brand": "Visa",
+    "country": "US",
+    "cvc_check": "unchecked",
+    "dynamic_last4": null,
+    "email": null,
+    "exp_month": 10,
+    "exp_year": 2035,
+    "funding": "credit",
+    "last4": "4242",
+    "name": null,
+    "networks": {
+      "preferred": null
+    },
+    "phone": null,
+    "regulated_status": "unregulated",
+    "tokenization_method": null,
+    "wallet": null
+  },
+  "client_ip": "49.205.205.202",
+  "created": 1772698225,
+  "livemode": false,
+  "type": "card",
+  "used": false
+}

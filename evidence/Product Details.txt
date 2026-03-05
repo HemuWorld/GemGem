@@ -1,0 +1,333 @@
+Request URL: https://mp2-api-staging.jewelprotech.com/api/v1/c2c/product/diamond-ringdiamond-ringdiamond-ring-1?include=full_details&lang=en
+
+Request Method: GET
+Status Code : 200 OK
+
+Response : 
+{
+    "status": "success",
+    "message": "",
+    "data": {
+        "id": 1920,
+        "listing_id": "L20231209001920",
+        "name": "Diamond RingDiamond RingDiamond Ring",
+        "short_description": "Diamond RingDiamond RingDiamond RingDiamond RingDiamond RingDiamond Ring",
+        "image": "https:\/\/d2deqc5fq1mgd9.cloudfront.net\/public\/product\/1920\/images\/3223\/65744ee9bf34d.png",
+        "slug": "diamond-ringdiamond-ringdiamond-ring-1",
+        "has_price_comparison": 1,
+        "owner_id": 156,
+        "image_alt": "1920_mainPhoto",
+        "caption": "Diamond RingDiamond RingDiamond RingDiamond RingDiamond RingDiamond Ring",
+        "listedPrice": {
+            "USD": {
+                "price": 12643,
+                "formatted": "USD $12,643"
+            },
+            "AUD": {
+                "price": 16611,
+                "formatted": "$16,611.00"
+            },
+            "HKD": {
+                "price": 98765,
+                "formatted": "HKD $98,765"
+            },
+            "MYR": {
+                "price": 51708,
+                "formatted": "RM51,708"
+            },
+            "SGD": {
+                "price": 17025,
+                "formatted": "$17,025.00"
+            },
+            "TWD": {
+                "price": 379490,
+                "formatted": "NT$379,490.00"
+            }
+        },
+        "price": {
+            "USD": {
+                "price": 12643,
+                "formatted": "USD $12,643"
+            },
+            "AUD": {
+                "price": 16611,
+                "formatted": "$16,611.00"
+            },
+            "HKD": {
+                "price": 98765,
+                "formatted": "HKD $98,765"
+            },
+            "MYR": {
+                "price": 51708,
+                "formatted": "RM51,708"
+            },
+            "SGD": {
+                "price": 17025,
+                "formatted": "$17,025.00"
+            },
+            "TWD": {
+                "price": 379490,
+                "formatted": "NT$379,490.00"
+            }
+        },
+        "regular_price": {
+            "USD": {
+                "price": 12643,
+                "formatted": "USD $12,643"
+            },
+            "AUD": {
+                "price": 16611,
+                "formatted": "$16,611.00"
+            },
+            "HKD": {
+                "price": 98765,
+                "formatted": "HKD $98,765"
+            },
+            "MYR": {
+                "price": 51708,
+                "formatted": "RM51,708"
+            },
+            "SGD": {
+                "price": 17025,
+                "formatted": "$17,025.00"
+            },
+            "TWD": {
+                "price": 379490,
+                "formatted": "NT$379,490.00"
+            }
+        },
+        "has_discount": false,
+        "discount_rate": 0,
+        "status": "active",
+        "isVerified": false,
+        "isInWishlist": false,
+        "created_at": "09 Dec, 2023",
+        "updated_at": "09 Dec, 2023",
+        "listed_at": "2023-12-09T11:30:42.000000Z",
+        "size": null,
+        "year_of_purchase": null,
+        "deposit_charges": [
+            {
+                "id": 14,
+                "code": "20_deposit",
+                "label": "20% Deposit",
+                "type": "Percentage",
+                "status": "active",
+                "is_optional": "Yes",
+                "per_product": "Yes",
+                "charge_type": "shopping_deposit",
+                "description": "",
+                "amount": "20.00",
+                "who_pay": "buyer",
+                "min_amount_to_apply": {
+                    "USD": {
+                        "price": 10001,
+                        "formatted": "USD $10,001"
+                    },
+                    "AUD": {
+                        "price": 13140,
+                        "formatted": "$13,140.00"
+                    },
+                    "HKD": {
+                        "price": 78128,
+                        "formatted": "HKD $78,128"
+                    },
+                    "MYR": {
+                        "price": 40904,
+                        "formatted": "RM40,904"
+                    },
+                    "SGD": {
+                        "price": 13468,
+                        "formatted": "$13,468.00"
+                    },
+                    "TWD": {
+                        "price": 300195,
+                        "formatted": "NT$300,195.00"
+                    }
+                },
+                "max_amount_to_apply": null,
+                "updated_at": null,
+                "price": {
+                    "USD": {
+                        "price": 20,
+                        "formatted": "USD $20"
+                    },
+                    "AUD": {
+                        "price": 26,
+                        "formatted": "$26.00"
+                    },
+                    "HKD": {
+                        "price": 156,
+                        "formatted": "HKD $156"
+                    },
+                    "MYR": {
+                        "price": 82,
+                        "formatted": "RM82"
+                    },
+                    "SGD": {
+                        "price": 27,
+                        "formatted": "$27.00"
+                    },
+                    "TWD": {
+                        "price": 600,
+                        "formatted": "NT$600.00"
+                    }
+                }
+            },
+            {
+                "id": 15,
+                "code": "full_payment",
+                "label": "Full Payment",
+                "type": "Percentage",
+                "status": "active",
+                "is_optional": "Yes",
+                "per_product": "Yes",
+                "charge_type": "shopping_deposit",
+                "description": "",
+                "amount": "100.00",
+                "who_pay": "buyer",
+                "min_amount_to_apply": null,
+                "max_amount_to_apply": null,
+                "updated_at": null,
+                "price": {
+                    "USD": {
+                        "price": 100,
+                        "formatted": "USD $100"
+                    },
+                    "AUD": {
+                        "price": 131,
+                        "formatted": "$131.00"
+                    },
+                    "HKD": {
+                        "price": 781,
+                        "formatted": "HKD $781"
+                    },
+                    "MYR": {
+                        "price": 409,
+                        "formatted": "RM409"
+                    },
+                    "SGD": {
+                        "price": 135,
+                        "formatted": "$135.00"
+                    },
+                    "TWD": {
+                        "price": 3002,
+                        "formatted": "NT$3,002.00"
+                    }
+                }
+            }
+        ],
+        "product_charges": [
+            {
+                "id": 19,
+                "code": "insurance_required",
+                "label": "Insurance required",
+                "status": "active",
+                "description": "<p>add insurance charge for shipping process<\/p>",
+                "charge_type": "shopping_cart",
+                "is_optional": 1,
+                "per_product": 1,
+                "type": "fixed",
+                "amount": "0.00",
+                "who_pay": "buyer",
+                "min_amount_to_apply": null,
+                "max_amount_to_apply": null,
+                "properties": null,
+                "created_by": null,
+                "updated_by": 1,
+                "deleted_at": null,
+                "created_at": "2023-11-17T19:17:04.000000Z",
+                "updated_at": "2024-01-29T13:15:31.000000Z",
+                "isPromoted": false
+            }
+        ],
+        "has_cert_file": false,
+        "certificate_url": null,
+        "category": {
+            "id": 94,
+            "name": "Ring",
+            "slug": "ring"
+        },
+        "header_attributes": [],
+        "footer_attributes": [],
+        "product_attributes": [
+            {
+                "label": "Metal",
+                "value": "Platinum",
+                "code": "metal",
+                "option_value": "platinum"
+            }
+        ],
+        "material": "",
+        "stones": {
+            "Diamond": [
+                {
+                    "id": 2047,
+                    "attributes": [
+                        {
+                            "label": "Quantity",
+                            "option_value": "1",
+                            "value": "1",
+                            "attributeId": 235,
+                            "index": 0,
+                            "code": "quantity",
+                            "stoneId": 2047,
+                            "display_label": "Diamond Quantity"
+                        },
+                        {
+                            "label": "Certification",
+                            "option_value": "none",
+                            "value": "None",
+                            "attributeId": 243,
+                            "index": 1,
+                            "code": "certification",
+                            "stoneId": 2047,
+                            "display_label": "Diamond Certification"
+                        },
+                        {
+                            "label": "Carat Weight",
+                            "option_value": "4",
+                            "value": 4,
+                            "attributeId": 248,
+                            "index": 2,
+                            "code": "carat-weight",
+                            "stoneId": 2047,
+                            "display_label": "Diamond Carat Weight"
+                        },
+                        {
+                            "label": "Stone Type",
+                            "option_value": "diamond",
+                            "value": "Diamond",
+                            "attributeId": 287,
+                            "index": 3,
+                            "code": "stone-type",
+                            "stoneId": 2047,
+                            "display_label": "Diamond Stone Type"
+                        }
+                    ]
+                }
+            ]
+        },
+        "is_indexable": true,
+        "gallery": [
+            {
+                "id": 3223,
+                "url": "https:\/\/d2deqc5fq1mgd9.cloudfront.net\/public\/product\/1920\/images\/3223\/65744ee9bf34d.png",
+                "alt": "1920_mainPhoto",
+                "collection_name": "main",
+                "type": "image"
+            }
+        ],
+        "labels": [
+            {
+                "slug": "has_price_comparison",
+                "name": "Has Price Comparison",
+                "tooltip": "Product has competitor price comparison data",
+                "icon": null,
+                "backgroundColor": null,
+                "textColor": null,
+                "hidden": 1
+            }
+        ]
+    }
+}

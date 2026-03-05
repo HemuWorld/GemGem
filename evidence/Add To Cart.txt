@@ -1,0 +1,786 @@
+Request URL: https://mp2-api-staging.jewelprotech.com/api/v1/shopping-cart/update-fetch
+
+Request Method: POST
+Status Code : 200 OK
+
+Response : 
+
+{
+    "status": "success",
+    "message": "",
+    "data": {
+        "cart_data": {
+            "cart": {
+                "instance_id": null,
+                "cart_type": "main",
+                "isHighValueShipping": false,
+                "canCheckout": true,
+                "ids": [
+                    1920
+                ],
+                "items_grouped_by_seller": [
+                    {
+                        "seller": {
+                            "id": 156,
+                            "username": "jigneshyadav",
+                            "sold": 45,
+                            "followers_count": 6,
+                            "saleItems": 9,
+                            "created_at": "29 Jun, 2023",
+                            "picture": "https:\/\/mp2-api-staging.jewelprotech.com\/media\/user_156\/1510\/profile.png",
+                            "isVerifiedSeller": false
+                        },
+                        "items": [
+                            {
+                                "id": 1920,
+                                "listing_id": "L20231209001920",
+                                "name": "Diamond RingDiamond RingDiamond Ring",
+                                "slug": "diamond-ringdiamond-ringdiamond-ring-1",
+                                "status": "active",
+                                "price": {
+                                    "USD": {
+                                        "price": 12643,
+                                        "formatted": "USD $12,643"
+                                    },
+                                    "AUD": {
+                                        "price": 16611,
+                                        "formatted": "$16,611.00"
+                                    },
+                                    "HKD": {
+                                        "price": 98767,
+                                        "formatted": "HKD $98,767"
+                                    },
+                                    "MYR": {
+                                        "price": 51710,
+                                        "formatted": "RM51,710"
+                                    },
+                                    "SGD": {
+                                        "price": 17026,
+                                        "formatted": "$17,026.00"
+                                    },
+                                    "TWD": {
+                                        "price": 379499,
+                                        "formatted": "NT$379,499.00"
+                                    }
+                                },
+                                "image": "https:\/\/d2deqc5fq1mgd9.cloudfront.net\/public\/product\/1920\/images\/3223\/65744ee9bf34d.png",
+                                "isHighValue": false,
+                                "isVerified": false,
+                                "isTrustedSeller": false,
+                                "isPassIGI": false,
+                                "regular_price": {
+                                    "USD": {
+                                        "price": 12643,
+                                        "formatted": "USD $12,643"
+                                    },
+                                    "AUD": {
+                                        "price": 16611,
+                                        "formatted": "$16,611.00"
+                                    },
+                                    "HKD": {
+                                        "price": 98767,
+                                        "formatted": "HKD $98,767"
+                                    },
+                                    "MYR": {
+                                        "price": 51710,
+                                        "formatted": "RM51,710"
+                                    },
+                                    "SGD": {
+                                        "price": 17026,
+                                        "formatted": "$17,026.00"
+                                    },
+                                    "TWD": {
+                                        "price": 379499,
+                                        "formatted": "NT$379,499.00"
+                                    }
+                                },
+                                "caption": null,
+                                "created_at": "09 Dec, 2023",
+                                "ring_size": null,
+                                "ring_size_object": null,
+                                "shippingAddress": [],
+                                "categories": [
+                                    94
+                                ],
+                                "isInWishlist": false,
+                                "category": "Ring",
+                                "discount_rate": 0,
+                                "charges": {
+                                    "depositOptions": [
+                                        {
+                                            "key": "20_deposit",
+                                            "value": true
+                                        },
+                                        {
+                                            "key": "full_payment",
+                                            "value": false
+                                        }
+                                    ],
+                                    "optionalCharges": [
+                                        {
+                                            "key": "insurance_required",
+                                            "value": false,
+                                            "isPromote": false,
+                                            "promoteText": null,
+                                            "price": {
+                                                "USD": {
+                                                    "price": 0,
+                                                    "formatted": "USD $0"
+                                                },
+                                                "AUD": {
+                                                    "price": 0,
+                                                    "formatted": "$0.00"
+                                                },
+                                                "HKD": {
+                                                    "price": 0,
+                                                    "formatted": "HKD $0"
+                                                },
+                                                "MYR": {
+                                                    "price": 0,
+                                                    "formatted": "RM0"
+                                                },
+                                                "SGD": {
+                                                    "price": 0,
+                                                    "formatted": "$0.00"
+                                                },
+                                                "TWD": {
+                                                    "price": 0,
+                                                    "formatted": "NT$0.00"
+                                                }
+                                            },
+                                            "attributes": [],
+                                            "props": [],
+                                            "label": "Insurance required"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "paymentDetails": {
+                    "partial": [
+                        {
+                            "item_id": 1920,
+                            "item_slug": "diamond-ringdiamond-ringdiamond-ring-1",
+                            "item_name": "Diamond RingDiamond RingDiamond Ring",
+                            "item_verified": false,
+                            "isHighValue": false,
+                            "isPassIgi": false,
+                            "isTrustedSeller": false,
+                            "is_partial_payment": true,
+                            "discount_amount": 0,
+                            "image": "https:\/\/d2deqc5fq1mgd9.cloudfront.net\/public\/product\/1920\/images\/3223\/65744ee9bf34d.png",
+                            "is_free_shipping": false,
+                            "country": "IN",
+                            "item_price": {
+                                "USD": {
+                                    "price": 12643,
+                                    "formatted": "USD $12,643"
+                                },
+                                "AUD": {
+                                    "price": 16611,
+                                    "formatted": "$16,611.00"
+                                },
+                                "HKD": {
+                                    "price": 98767,
+                                    "formatted": "HKD $98,767"
+                                },
+                                "MYR": {
+                                    "price": 51710,
+                                    "formatted": "RM51,710"
+                                },
+                                "SGD": {
+                                    "price": 17026,
+                                    "formatted": "$17,026.00"
+                                },
+                                "TWD": {
+                                    "price": 379499,
+                                    "formatted": "NT$379,499.00"
+                                }
+                            },
+                            "whole_pay": {
+                                "USD": {
+                                    "price": 2529,
+                                    "formatted": "USD $2,529"
+                                },
+                                "AUD": {
+                                    "price": 3322,
+                                    "formatted": "$3,322.00"
+                                },
+                                "HKD": {
+                                    "price": 19753,
+                                    "formatted": "HKD $19,753"
+                                },
+                                "MYR": {
+                                    "price": 10342,
+                                    "formatted": "RM10,342"
+                                },
+                                "SGD": {
+                                    "price": 3405,
+                                    "formatted": "$3,405.00"
+                                },
+                                "TWD": {
+                                    "price": 75900,
+                                    "formatted": "NT$75,900.00"
+                                }
+                            },
+                            "remain_amount": {
+                                "USD": {
+                                    "price": 10114,
+                                    "formatted": "USD $10,114"
+                                },
+                                "AUD": {
+                                    "price": 13289,
+                                    "formatted": "$13,289.00"
+                                },
+                                "HKD": {
+                                    "price": 79011,
+                                    "formatted": "HKD $79,011"
+                                },
+                                "MYR": {
+                                    "price": 41366,
+                                    "formatted": "RM41,366"
+                                },
+                                "SGD": {
+                                    "price": 13620,
+                                    "formatted": "$13,620.00"
+                                },
+                                "TWD": {
+                                    "price": 303587,
+                                    "formatted": "NT$303,587.00"
+                                }
+                            },
+                            "charges": []
+                        }
+                    ],
+                    "full": [],
+                    "summery": {
+                        "items_total": {
+                            "USD": {
+                                "price": 12643,
+                                "formatted": "USD $12,643"
+                            },
+                            "AUD": {
+                                "price": 16611,
+                                "formatted": "$16,611.00"
+                            },
+                            "HKD": {
+                                "price": 98767,
+                                "formatted": "HKD $98,767"
+                            },
+                            "MYR": {
+                                "price": 51710,
+                                "formatted": "RM51,710"
+                            },
+                            "SGD": {
+                                "price": 17026,
+                                "formatted": "$17,026.00"
+                            },
+                            "TWD": {
+                                "price": 379499,
+                                "formatted": "NT$379,499.00"
+                            }
+                        },
+                        "discount_total": {
+                            "USD": {
+                                "price": 0,
+                                "formatted": "USD $0"
+                            },
+                            "AUD": {
+                                "price": 0,
+                                "formatted": "$0.00"
+                            },
+                            "HKD": {
+                                "price": 0,
+                                "formatted": "HKD $0"
+                            },
+                            "MYR": {
+                                "price": 0,
+                                "formatted": "RM0"
+                            },
+                            "SGD": {
+                                "price": 0,
+                                "formatted": "$0.00"
+                            },
+                            "TWD": {
+                                "price": 0,
+                                "formatted": "NT$0.00"
+                            }
+                        },
+                        "grand_total": {
+                            "USD": {
+                                "price": 12643,
+                                "formatted": "USD $12,643"
+                            },
+                            "AUD": {
+                                "price": 16611,
+                                "formatted": "$16,611.00"
+                            },
+                            "HKD": {
+                                "price": 98767,
+                                "formatted": "HKD $98,767"
+                            },
+                            "MYR": {
+                                "price": 51710,
+                                "formatted": "RM51,710"
+                            },
+                            "SGD": {
+                                "price": 17026,
+                                "formatted": "$17,026.00"
+                            },
+                            "TWD": {
+                                "price": 379499,
+                                "formatted": "NT$379,499.00"
+                            }
+                        },
+                        "pay_now": {
+                            "USD": {
+                                "price": 2529,
+                                "formatted": "USD $2,529"
+                            },
+                            "AUD": {
+                                "price": 3322,
+                                "formatted": "$3,322.00"
+                            },
+                            "HKD": {
+                                "price": 19753,
+                                "formatted": "HKD $19,753"
+                            },
+                            "MYR": {
+                                "price": 10342,
+                                "formatted": "RM10,342"
+                            },
+                            "SGD": {
+                                "price": 3405,
+                                "formatted": "$3,405.00"
+                            },
+                            "TWD": {
+                                "price": 75900,
+                                "formatted": "NT$75,900.00"
+                            }
+                        },
+                        "redeemBalance": {
+                            "USD": {
+                                "price": 0,
+                                "formatted": "USD $0"
+                            },
+                            "AUD": {
+                                "price": 0,
+                                "formatted": "$0.00"
+                            },
+                            "HKD": {
+                                "price": 0,
+                                "formatted": "HKD $0"
+                            },
+                            "MYR": {
+                                "price": 0,
+                                "formatted": "RM0"
+                            },
+                            "SGD": {
+                                "price": 0,
+                                "formatted": "$0.00"
+                            },
+                            "TWD": {
+                                "price": 0,
+                                "formatted": "NT$0.00"
+                            }
+                        },
+                        "breakdown": {
+                            "isHighValue": false,
+                            "isFreeShipping": false,
+                            "sumOfCharges": [],
+                            "sumOfPartialRemaining": {
+                                "USD": {
+                                    "price": 10114,
+                                    "formatted": "USD $10,114"
+                                },
+                                "AUD": {
+                                    "price": 13289,
+                                    "formatted": "$13,289.00"
+                                },
+                                "HKD": {
+                                    "price": 79011,
+                                    "formatted": "HKD $79,011"
+                                },
+                                "MYR": {
+                                    "price": 41366,
+                                    "formatted": "RM41,366"
+                                },
+                                "SGD": {
+                                    "price": 13620,
+                                    "formatted": "$13,620.00"
+                                },
+                                "TWD": {
+                                    "price": 303587,
+                                    "formatted": "NT$303,587.00"
+                                }
+                            },
+                            "itemCount": 1,
+                            "country": "IN",
+                            "showIgiPassMessage": {
+                                "isHavePassedItem": false,
+                                "type": null
+                            },
+                            "attributes": {
+                                "isAnyResizePassed": false
+                            }
+                        }
+                    }
+                },
+                "coupon": [],
+                "created_at": null,
+                "updated_at": null
+            },
+            "checkout": {
+                "ids": [
+                    1920
+                ],
+                "walletBalance": 0,
+                "items": {
+                    "1920": {
+                        "data": {
+                            "id": 1920,
+                            "listing_id": "L20231209001920",
+                            "name": "Diamond RingDiamond RingDiamond Ring",
+                            "slug": "diamond-ringdiamond-ringdiamond-ring-1",
+                            "status": "active",
+                            "price": {
+                                "USD": {
+                                    "price": 12643,
+                                    "formatted": "USD $12,643"
+                                },
+                                "AUD": {
+                                    "price": 16611,
+                                    "formatted": "$16,611.00"
+                                },
+                                "HKD": {
+                                    "price": 98767,
+                                    "formatted": "HKD $98,767"
+                                },
+                                "MYR": {
+                                    "price": 51710,
+                                    "formatted": "RM51,710"
+                                },
+                                "SGD": {
+                                    "price": 17026,
+                                    "formatted": "$17,026.00"
+                                },
+                                "TWD": {
+                                    "price": 379499,
+                                    "formatted": "NT$379,499.00"
+                                }
+                            },
+                            "image": "https:\/\/d2deqc5fq1mgd9.cloudfront.net\/public\/product\/1920\/images\/3223\/65744ee9bf34d.png",
+                            "isHighValue": false,
+                            "isVerified": false,
+                            "isTrustedSeller": false,
+                            "isPassIGI": false,
+                            "regular_price": {
+                                "USD": {
+                                    "price": 12643,
+                                    "formatted": "USD $12,643"
+                                },
+                                "AUD": {
+                                    "price": 16611,
+                                    "formatted": "$16,611.00"
+                                },
+                                "HKD": {
+                                    "price": 98767,
+                                    "formatted": "HKD $98,767"
+                                },
+                                "MYR": {
+                                    "price": 51710,
+                                    "formatted": "RM51,710"
+                                },
+                                "SGD": {
+                                    "price": 17026,
+                                    "formatted": "$17,026.00"
+                                },
+                                "TWD": {
+                                    "price": 379499,
+                                    "formatted": "NT$379,499.00"
+                                }
+                            },
+                            "caption": null,
+                            "created_at": "09 Dec, 2023",
+                            "ring_size": null,
+                            "ring_size_object": null,
+                            "shippingAddress": [],
+                            "owner": {
+                                "id": 156,
+                                "username": "jigneshyadav",
+                                "sold": 45,
+                                "followers_count": 6,
+                                "saleItems": 9,
+                                "created_at": "29 Jun, 2023",
+                                "picture": "https:\/\/mp2-api-staging.jewelprotech.com\/media\/user_156\/1510\/profile.png"
+                            },
+                            "categories": [
+                                94
+                            ],
+                            "isInWishlist": false,
+                            "category": "Ring",
+                            "discount_rate": 0
+                        },
+                        "charges": [],
+                        "promotions": [],
+                        "deposit": {
+                            "paymentType": "20_deposit",
+                            "deposit": {
+                                "USD": {
+                                    "price": 2529,
+                                    "formatted": "USD $2,529"
+                                },
+                                "AUD": {
+                                    "price": 3322,
+                                    "formatted": "$3,322.00"
+                                },
+                                "HKD": {
+                                    "price": 19753,
+                                    "formatted": "HKD $19,753"
+                                },
+                                "MYR": {
+                                    "price": 10342,
+                                    "formatted": "RM10,342"
+                                },
+                                "SGD": {
+                                    "price": 3405,
+                                    "formatted": "$3,405.00"
+                                },
+                                "TWD": {
+                                    "price": 75900,
+                                    "formatted": "NT$75,900.00"
+                                }
+                            },
+                            "remain_amount": {
+                                "USD": {
+                                    "price": 10114,
+                                    "formatted": "USD $10,114"
+                                },
+                                "AUD": {
+                                    "price": 13289,
+                                    "formatted": "$13,289.00"
+                                },
+                                "HKD": {
+                                    "price": 79011,
+                                    "formatted": "HKD $79,011"
+                                },
+                                "MYR": {
+                                    "price": 41366,
+                                    "formatted": "RM41,366"
+                                },
+                                "SGD": {
+                                    "price": 13620,
+                                    "formatted": "$13,620.00"
+                                },
+                                "TWD": {
+                                    "price": 303587,
+                                    "formatted": "NT$303,587.00"
+                                }
+                            }
+                        },
+                        "finance": {
+                            "USD": {
+                                "price": 2529,
+                                "formatted": "USD $2,529"
+                            },
+                            "AUD": {
+                                "price": 3322,
+                                "formatted": "$3,322.00"
+                            },
+                            "HKD": {
+                                "price": 19753,
+                                "formatted": "HKD $19,753"
+                            },
+                            "MYR": {
+                                "price": 10342,
+                                "formatted": "RM10,342"
+                            },
+                            "SGD": {
+                                "price": 3405,
+                                "formatted": "$3,405.00"
+                            },
+                            "TWD": {
+                                "price": 75900,
+                                "formatted": "NT$75,900.00"
+                            }
+                        }
+                    }
+                },
+                "payment": {
+                    "items_total": {
+                        "USD": {
+                            "price": 12643,
+                            "formatted": "USD $12,643"
+                        },
+                        "AUD": {
+                            "price": 16611,
+                            "formatted": "$16,611.00"
+                        },
+                        "HKD": {
+                            "price": 98767,
+                            "formatted": "HKD $98,767"
+                        },
+                        "MYR": {
+                            "price": 51710,
+                            "formatted": "RM51,710"
+                        },
+                        "SGD": {
+                            "price": 17026,
+                            "formatted": "$17,026.00"
+                        },
+                        "TWD": {
+                            "price": 379499,
+                            "formatted": "NT$379,499.00"
+                        }
+                    },
+                    "discount_total": {
+                        "USD": {
+                            "price": 0,
+                            "formatted": "USD $0"
+                        },
+                        "AUD": {
+                            "price": 0,
+                            "formatted": "$0.00"
+                        },
+                        "HKD": {
+                            "price": 0,
+                            "formatted": "HKD $0"
+                        },
+                        "MYR": {
+                            "price": 0,
+                            "formatted": "RM0"
+                        },
+                        "SGD": {
+                            "price": 0,
+                            "formatted": "$0.00"
+                        },
+                        "TWD": {
+                            "price": 0,
+                            "formatted": "NT$0.00"
+                        }
+                    },
+                    "grand_total": {
+                        "USD": {
+                            "price": 12643,
+                            "formatted": "USD $12,643"
+                        },
+                        "AUD": {
+                            "price": 16611,
+                            "formatted": "$16,611.00"
+                        },
+                        "HKD": {
+                            "price": 98767,
+                            "formatted": "HKD $98,767"
+                        },
+                        "MYR": {
+                            "price": 51710,
+                            "formatted": "RM51,710"
+                        },
+                        "SGD": {
+                            "price": 17026,
+                            "formatted": "$17,026.00"
+                        },
+                        "TWD": {
+                            "price": 379499,
+                            "formatted": "NT$379,499.00"
+                        }
+                    },
+                    "pay_now": {
+                        "USD": {
+                            "price": 2529,
+                            "formatted": "USD $2,529"
+                        },
+                        "AUD": {
+                            "price": 3322,
+                            "formatted": "$3,322.00"
+                        },
+                        "HKD": {
+                            "price": 19753,
+                            "formatted": "HKD $19,753"
+                        },
+                        "MYR": {
+                            "price": 10342,
+                            "formatted": "RM10,342"
+                        },
+                        "SGD": {
+                            "price": 3405,
+                            "formatted": "$3,405.00"
+                        },
+                        "TWD": {
+                            "price": 75900,
+                            "formatted": "NT$75,900.00"
+                        }
+                    },
+                    "redeemBalance": {
+                        "USD": {
+                            "price": 0,
+                            "formatted": "USD $0"
+                        },
+                        "AUD": {
+                            "price": 0,
+                            "formatted": "$0.00"
+                        },
+                        "HKD": {
+                            "price": 0,
+                            "formatted": "HKD $0"
+                        },
+                        "MYR": {
+                            "price": 0,
+                            "formatted": "RM0"
+                        },
+                        "SGD": {
+                            "price": 0,
+                            "formatted": "$0.00"
+                        },
+                        "TWD": {
+                            "price": 0,
+                            "formatted": "NT$0.00"
+                        }
+                    },
+                    "breakdown": {
+                        "isHighValue": false,
+                        "isFreeShipping": false,
+                        "sumOfCharges": [],
+                        "sumOfPartialRemaining": {
+                            "USD": {
+                                "price": 10114,
+                                "formatted": "USD $10,114"
+                            },
+                            "AUD": {
+                                "price": 13289,
+                                "formatted": "$13,289.00"
+                            },
+                            "HKD": {
+                                "price": 79011,
+                                "formatted": "HKD $79,011"
+                            },
+                            "MYR": {
+                                "price": 41366,
+                                "formatted": "RM41,366"
+                            },
+                            "SGD": {
+                                "price": 13620,
+                                "formatted": "$13,620.00"
+                            },
+                            "TWD": {
+                                "price": 303587,
+                                "formatted": "NT$303,587.00"
+                            }
+                        },
+                        "itemCount": 1,
+                        "country": "IN",
+                        "showIgiPassMessage": {
+                            "isHavePassedItem": false,
+                            "type": null
+                        },
+                        "attributes": {
+                            "isAnyResizePassed": false
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

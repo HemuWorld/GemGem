@@ -1,0 +1,19 @@
+{
+  "name": "gemgem-automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "UI and API automation for GemGem assessment",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test tests/ui --project=chromium",
+    "test:ui:catalog": "playwright test tests/ui/catalog-sort.spec.js --project=chromium",
+    "test:ui:catalog:ui": "playwright test tests/ui/catalog-sort.spec.js --project=chromium --ui",
+    "test:api": "playwright test tests/api --project=chromium",
+    "report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "ajv": "^8.18.0",
+    "dotenv": "^16.6.1"
+  }
+}

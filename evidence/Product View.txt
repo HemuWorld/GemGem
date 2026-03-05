@@ -1,0 +1,299 @@
+https://mp2-api-staging.jewelprotech.com/api/v1/c2c/product-views/unique-18k-white-gold-diamond-round-lr-11664
+
+Resonse: 
+
+{
+    "message": "No query results for model [Corals\\Modules\\C2C\\Models\\Product] unique-18k-white-gold-diamond-round-lr-11664",
+    "exception": "Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException",
+    "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+    "line": 391,
+    "trace": [
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+            "line": 367,
+            "function": "prepareException",
+            "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/app/Exceptions/Handler.php",
+            "line": 72,
+            "function": "render",
+            "class": "Illuminate\\Foundation\\Exceptions\\Handler",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php",
+            "line": 51,
+            "function": "render",
+            "class": "App\\Exceptions\\Handler",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 185,
+            "function": "handleException",
+            "class": "Illuminate\\Routing\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/Corals/core/Foundation/Http/Middleware/JSONResponse.php",
+            "line": 20,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Corals\\Foundation\\Http\\Middleware\\JSONResponse",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+            "line": 126,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Middleware/ThrottleRequests.php",
+            "line": 62,
+            "function": "handleRequest",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 116,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 799,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 776,
+            "function": "runRouteWithinStack",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 740,
+            "function": "runRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+            "line": 729,
+            "function": "dispatchToRoute",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "line": 190,
+            "function": "dispatch",
+            "class": "Illuminate\\Routing\\Router",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 141,
+            "function": "Illuminate\\Foundation\\Http\\{closure}",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/sentry/sentry-laravel/src/Sentry/Laravel/Http/SetRequestIpMiddleware.php",
+            "line": 45,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Sentry\\Laravel\\Http\\SetRequestIpMiddleware",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/sentry/sentry-laravel/src/Sentry/Laravel/Http/SetRequestMiddleware.php",
+            "line": 31,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Sentry\\Laravel\\Http\\SetRequestMiddleware",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php",
+            "line": 31,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php",
+            "line": 21,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php",
+            "line": 40,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php",
+            "line": 27,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php",
+            "line": 86,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php",
+            "line": 62,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Illuminate\\Http\\Middleware\\HandleCors",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php",
+            "line": 39,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/app/Http/Middleware/TrustProxies.php",
+            "line": 52,
+            "function": "handle",
+            "class": "Illuminate\\Http\\Middleware\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "App\\Http\\Middleware\\TrustProxies",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/sentry/sentry-laravel/src/Sentry/Laravel/Tracing/Middleware.php",
+            "line": 87,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 180,
+            "function": "handle",
+            "class": "Sentry\\Laravel\\Tracing\\Middleware",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php",
+            "line": 116,
+            "function": "Illuminate\\Pipeline\\{closure}",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "line": 165,
+            "function": "then",
+            "class": "Illuminate\\Pipeline\\Pipeline",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php",
+            "line": 134,
+            "function": "sendRequestThroughRouter",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        },
+        {
+            "file": "/home/832454.cloudwaysapps.com/zgyekmtxsq/public_html/public/index.php",
+            "line": 56,
+            "function": "handle",
+            "class": "Illuminate\\Foundation\\Http\\Kernel",
+            "type": "->"
+        }
+    ]
+}
